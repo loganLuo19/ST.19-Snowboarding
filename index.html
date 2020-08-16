@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>ST.19滑雪學校</title>
+</head>
+
+<body>
+    <!-- infoBar -->
+    <div class="bg-info py-1  ">
+        <div class="container text-right">
+            <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white mx-1"><i class="fab fa-facebook-square"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-twitter-square"></i></a>
+        </div>
+
+    </div>
+    <!-- navber -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-mountain mr-1"></i>ST.19滑雪學校</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">首頁 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">最新活動</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            熱門方案
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">一對多 初學者必修課</a>
+                            <a class="dropdown-item" href="#">一對多 高階技巧俱樂部</a>
+                            <a class="dropdown-item" href="#">一對一 私人保鑣</a>
+                            <a class="dropdown-item" href="#">一對一 私人保母</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline">
+
+                    <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#loginModal">登入</a>
+                    <a href="#" class="btn btn-primary ml-2" data-toggle="modal" data-target="#registerModal">註冊</a>
+                </form>
+            </div>
+        </div>
+
+    </nav>
+
+    <head>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item header-carousel-item active bg-cover"
+                    style="background-image: url(https://images.unsplash.com/photo-1587251749984-4859e9016882?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80)">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h5>冬季極限單板 Snowboarding</h5>
+                        <p>帶上滿腔熱血的心，讓冰天雪地、極酷嚴寒在眼裡化作美麗的風景</p>
+                    </div>
+                </div>
+                <div class="carousel-item header-carousel-item bg-cover"
+                    style="background-image: url(https://images.unsplash.com/photo-1507534192483-69914c0692d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80)">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>雪地冒險雙版 Skiing</h5>
+                        <p>帶上滿腔熱血的心，讓冰天雪地、極酷嚴寒在眼裡化作美麗的風景</p>
+                    </div>
+                </div>
+                <div class="carousel-item header-carousel-item bg-cover"
+                    style="background-image: url(https://images.unsplash.com/photo-1505873346750-69ce3daeb225?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>早鳥優惠</h5>
+                        <p>提前半年預定課程，享優惠、不再人擠人。錯過再等半年!</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </head>
+    <section class="bg-warning text-secondary py-4">
+        <div class="container">
+            <div class="row text-justify">
+                <div class="col-md-4">
+                    <div class="mb-2"><i class="fas fa-2x fa-skiing"></i></div>
+                    <h3>課程類別</h3>
+                    <p>本校提供單板 Snowboard / 雙板 Ski 滑雪課程 。請慎選課程，預約登記的課程不能中途更換。因為教練不一定兩種都會。</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="mb-2"><i class="fas fa-2x fa-globe-americas"></i></div>
+                    <h3>訓練場地</h3>
+                    <p>為了讓學員有新鮮感，每年場地都不太一樣。目前北半球以日本為主;南半球則以澳洲為主。讓你一整年都有機會出國學滑雪。</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="mb-2"><i class="fas fa-2x fa-users"></i></div>
+                    <h3>會員制度</h3>
+                    <p>本校課程全面採預約制度，預約需有會員資格。辦理會員，享滑雪器材購買9折長期優惠。以及不定期優惠，活動內容公布在官網、粉絲頁。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- synopsis -->
+    <section class="container-fluid py-5 bg-dark" style="position: relative">
+        <div class="row">
+            <div class="col-md-5 bg-cover synopsis-img"></div>
+        </div>
+        <div class="container text-light ">
+            <div class="row d-flex justify-content-end ">
+                <div class="col-md-7 bg-gray-transparent  bg-md-transparent pt-4">
+                    <h3>歡迎來到 ST.19滑雪學校</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea molestias repellendus quasi
+                        voluptate minus? Quaerat distinctio nemo architecto dolore magni eos illum quos, maiores, eius
+                        fuga voluptatem tempora deleniti excepturi?</p>
+                    <a href="#" class="btn btn-outline-warning my-4">了解更多</a>
+                    <div class="row my-4">
+                        <div class="col-md-6">
+                            <h3>像含羞草似的嬌柔</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis rem accusamus harum
+                                fuga quae voluptatibus dignissimos reiciendis vel expedita architecto.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>像含羞草似的嬌柔</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, non praesentium odit
+                                necessitatibus similique, omnis voluptatem sunt cupiditate laudantium provident corrupti
+                                eius nam recusandae fuga quibusdam labore ipsa, eveniet in!</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center font-weight-bold text-info">熱門方案</h2>
+            <div class="row text-secondary text-justify">
+                <div class="col-md-6 my-3">
+                    <div class="media">
+                        <div><i class="fas fa-check fa-2x mr-3 text-info"></i></div>
+                        <div class="media-body">
+                            <h3 class="mt-0">一對多 初學者必修課</h3>
+                            從零開始學的基礎課程，非常推薦從未嘗試過滑雪運動的你。本方案為一對多課程，教練不會依程度教授滑雪技巧，完全按照課綱教學。
+                            <strong>*不想一試成主顧，請勿輕易嘗試。</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-3">
+                    <div class="media">
+                        <div><i class="fas fa-check fa-2x mr-3 text-info"></i></div>
+                        <div class="media-body">
+                            <h3 class="mt-0">一對多 高階技巧俱樂部</h3>
+                            與教練及其他學員互相切磋，研究練習最新的高難度滑雪技巧。適合不斷追求極限的你。
+                            <strong>*建議加保全方位保險，所有意外皆由保險公司承擔。</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-3">
+                    <div class="media">
+                        <div><i class="fas fa-fire-alt fa-2x mr-3 text-info"></i></div>
+                        <div class="media-body">
+                            <h3 class="mt-0">一對一 私人保鑣</h3>
+                            是本校最具特色的方案，由經驗最豐富的滑雪教練兼任你的私人保鑣。保證整個滑雪過程不受閒雜人等干擾。教練會配備gopro幫你錄製專屬滑雪影片， 讓你專心沉浸在個人世界。
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-3">
+                    <div class="media">
+                        <div><i class="fas fa-fire-alt fa-2x mr-3 text-info"></i></div>
+                        <div class="media-body">
+                            <h3 class="mt-0">一對一 私人保母</h3>
+                            在你享受滑雪的時候，小孩沒人顧?那一定要幫你的孩子選擇本方案!由最專業的滑雪教練擔任孩子的私人保母。在快要跌倒時候，教練會直接把他抱起來。降低嚴重摔傷的可能。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- features -->
+    <section class="container-fluid py-5 bg-gray-transparent" style="position: relative">
+        <div class="container">
+            <div class="row text-white">
+                <div class="col-md-7">
+                    <h2 class="font-weight-bold">本校特色</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio beatae expedita porro id
+                        程度劃分明確，找到與你程度相符的課程。</p>
+                    architecto veritatis iusto eius.</p>
+                    <dl class="row">
+                        <dt class="col-sm-3">合理價格</dt>
+                        <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
+
+                        <dt class="col-sm-3">多元課程</dt>
+                        <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+
+                        <dt class="col-sm-3">課綱豐富</dt>
+                        <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+
+                        <dt class="col-sm-3">優秀團隊</dt>
+                        <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-end">
+            <div class="col-md-5 bg-cover features-img"></div>
+        </div>
+
+    </section>
+    <!-- map & form -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 pr-md-4">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6972.466563357795!2d120.6616544341261!3d24.151312985348607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f9d8ebd38727566!2z5Yuk576OIOiqoOWTgee2oOWckumBkw!5e0!3m2!1szh-TW!2stw!4v1597433481400!5m2!1szh-TW!2stw"
+                        width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-md-6 pl-md-4">
+                    <form class="needs-validation" novalidate>
+                        <h3 class="text-center">預約諮詢</h3>
+                        <div class="form-group">
+                            <label for="username">姓名*</label>
+                            <input type="text" class="form-control" id="username" placeholder="請輸入姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="tel"">電話*</label>
+                            <input type=" tel" class="form-control" id="tel" placeholder="請輸入電話" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email"">電子信箱*</label>
+                            <input type=" email" class="form-control" id="email" placeholder="name@example.com"
+                                required>
+                                <div class="invalid-feedback">
+                                    請填入正確資料!
+                                </div>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <label for="customRadio1" class="d-block ml-n4 ">是否為會員?</label>
+                            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio1">是</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio2">否</label>
+                        </div>
+                        <div class="text-right mt-3">
+                            <button type="button" class="btn btn-secondary">取消</button>
+                            <button type="submit" class="btn btn-primary">送出</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+    <!-- ad -->
+    <section class="container-fluid">
+        <div class="row text-light text-justify">
+            <div class="col-md-6 p-4 bg-cover"
+                style="background-image: url(https://images.unsplash.com/photo-1518773085311-4fcabdd825f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);">
+                <div class="row">
+                    <div class="col-9">
+                        <small>加入我們</small>
+                        <h4 class="font-weight-bold my-2">你便乖乖的把琴抱進你的床去</h4>
+                        <p>短暫的激情是不值錢的，年代的人還需要摔打，別人一定會聽你，但它只是一環，80年代的人不要跟70年代，別人可以拷貝我的模式，一個成功的創業者，東西得一點點幹，也要注重過程，千萬別告訴別人，賺錢模式越多越說明你沒有模式。
+                        </p>
+                        <a href="#" class="btn btn-info my-2">加入我們</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 p-4 bg-cover"
+                style="background-image: url(https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60)">
+                <div class="row">
+                    <div class="col-9">
+                        <small>加入我們</small>
+                        <h4 class="font-weight-bold my-2">你便乖乖的把琴抱進你的床去</h4>
+                        <p>短暫的激情是不值錢的，年代的人還需要摔打，別人一定會聽你，但它只是一環，80年代的人不要跟70年代，別人可以拷貝我的模式，一個成功的創業者，東西得一點點幹，也要注重過程，千萬別告訴別人，賺錢模式越多越說明你沒有模式。
+                        </p>
+                        <a href="#" class="btn btn-danger my-2">馬上預訂</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-light py-5">
+        <div class="container d-flex ">
+            <div class="text-secondary">© Copyright 2020 駱佳箴</div>
+            <div>
+                <a href="#" class="ml-2">GitHub</a>
+                <a href="#" class="ml-2">Facebook</a>
+                <a href="#" class="ml-2">About</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="exampleModalLabel">登入服務</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">帳號</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="請輸入電子信箱" required>
+                            <small id="emailHelp" class="form-text text-muted">我們絕不會隨意將你的資料給予第三者</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">密碼</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="請輸入密碼"
+                                required>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">記住帳號</label>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="mr-auto" data-dismiss="modal" data-toggle="modal"
+                                data-target="#registerModal">還沒成為會員?</a>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                            <button type="submit" class="btn btn-primary">登入</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Register Modal -->
+    <div class="modal fade " id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-warning text-white">
+                    <h5 class=" modal-title" id="exampleModalLabel">註冊服務</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6 text-secondary">
+                            <h3 class="font-weight-bold ">成為ST.19滑雪學校會員</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quod? Dolore cum
+                                nobis fugit atque voluptates rerum odio excepturi? Tenetur qui eaque nostrum est maxime
+                                quam vitae illum autem doloribus!</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure mollitia cumque. Inventore
+                                sint doloremque dignissimos!</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">帳號</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="請輸入電子信箱" required>
+                                    <small id="emailHelp" class="form-text text-muted">我們絕不會隨意將你的資料給予第三者</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">密碼</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1"
+                                        placeholder="請輸入密碼" required>
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">同意條款</label>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#" class="mr-auto" data-dismiss="modal" data-toggle="modal"
+                                        data-target="#loginModal">已經有會員帳號?</a>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                                    <button type="submit" class="btn btn-primary">登入</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('a[data-dismiss="modal"][data-toggle="modal"]').on('click',function(){
+                var target = $(this).data('target');
+                $(target).on('shown.bs.modal' ,function(){
+                    $('body').addClass('modal-open');
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
