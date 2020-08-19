@@ -16,9 +16,9 @@
     <!-- infoBar -->
     <div class="bg-info py-1  ">
         <div class="container text-right">
-            <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="text-white mx-1"><i class="fab fa-facebook-square"></i></a>
-            <a href="#" class="text-white"><i class="fab fa-twitter-square"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-instagram icon-hover"></i></a>
+            <a href="#" class="text-white mx-1"><i class="fab fa-facebook-square icon-hover"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-twitter-square icon-hover"></i></a>
         </div>
 
     </div>
@@ -61,7 +61,7 @@
 
     </nav>
 
-    <head>
+    <header>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -100,7 +100,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </head>
+    </header>
     <section class="bg-warning text-secondary py-4">
         <div class="container">
             <div class="row text-justify">
@@ -245,10 +245,16 @@
                         <div class="form-group">
                             <label for="username">姓名*</label>
                             <input type="text" class="form-control" id="username" placeholder="請輸入姓名" required>
+                            <div class="invalid-feedback">
+                                請填入正確資料!
+                            </div>
                         </div>
                         <div class="form-group">
                             <label for="tel"">電話*</label>
                             <input type=" tel" class="form-control" id="tel" placeholder="請輸入電話" required>
+                            <div class="invalid-feedback">
+                                請填入正確資料!
+                            </div>
                         </div>
                         <div class="form-group">
                             <label for="email"">電子信箱*</label>
@@ -277,26 +283,6 @@
 
         </div>
     </section>
-    <script>
-        // Example starter JavaScript for disabling form submissions if there are invalid fields
-        (function () {
-            'use strict';
-            window.addEventListener('load', function () {
-                // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                var forms = document.getElementsByClassName('needs-validation');
-                // Loop over them and prevent submission
-                var validation = Array.prototype.filter.call(forms, function (form) {
-                    form.addEventListener('submit', function (event) {
-                        if (form.checkValidity() === false) {
-                            event.preventDefault();
-                            event.stopPropagation();
-                        }
-                        form.classList.add('was-validated');
-                    }, false);
-                });
-            }, false);
-        })();
-    </script>
     <!-- ad -->
     <section class="container-fluid">
         <div class="row text-light text-justify">
@@ -337,11 +323,11 @@
         </div>
     </footer>
     <!-- Login Modal -->
-    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="loginModal" tabindex="-1"  aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header bg-primary text-white">
-                    <h5 class="modal-title" id="exampleModalLabel">登入服務</h5>
+                    <h5 class="modal-title" >登入服務</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -350,8 +336,7 @@
                     <form>
                         <div class="form-group">
                             <label for="exampleInputEmail1">帳號</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="請輸入電子信箱" required>
+                            <input type="email" class="form-control"                               aria-describedby="emailHelp" placeholder="請輸入電子信箱" required>
                             <small id="emailHelp" class="form-text text-muted">我們絕不會隨意將你的資料給予第三者</small>
                         </div>
                         <div class="form-group">
@@ -375,11 +360,11 @@
         </div>
     </div>
     <!-- Register Modal -->
-    <div class="modal fade " id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade " id="registerModal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog  modal-lg">
             <div class="modal-content">
                 <div class="modal-header bg-warning text-white">
-                    <h5 class=" modal-title" id="exampleModalLabel">註冊服務</h5>
+                    <h5 class=" modal-title">註冊服務</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -437,16 +422,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function () {
-            $('a[data-dismiss="modal"][data-toggle="modal"]').on('click',function(){
-                var target = $(this).data('target');
-                $(target).on('shown.bs.modal' ,function(){
-                    $('body').addClass('modal-open');
-                });
-            });
-        });
-    </script>
+    <script src="js/all.js"></script>
+
 </body>
 
 </html>
