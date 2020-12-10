@@ -1,0 +1,27 @@
+.animated-up{
+    opacity: 0;
+    transition: 1s;
+    transform: translateY(50px);
+}
+.animated-right{
+    opacity: 0;
+    transition: 1s;
+    transform: translateX(50px);
+}
+.animated-left{
+    opacity: 0;
+    transition: 1s;
+    transform: translateX(-50px);
+}
+.fadeIn{
+    opacity: 1;
+    transform: translateY(0px);
+    transform: translateX(0px);
+
+}
+.bg-enlarge{
+    transition:1s;
+    &:hover{
+        transform:scale(1.05,1.05)
+    }
+}

@@ -1,0 +1,62 @@
+.billboard-area {
+    min-height: 35rem;
+    position: relative;
+    overflow: hidden;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-image: url(https://images.unsplash.com/photo-1553532434-5ab5b6b84993?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80);
+        width: 200%;
+        height: 200%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(70deg);
+    }
+}
+
+.billboard-opacity {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #cd9557;
+    opacity: 0.7;
+}
+.menu {
+    height: 350px;
+    width: 800px;
+    top: 61px;
+    left: 56px;
+    position: absolute;
+    z-index: 100;
+    a {
+        font-family: "Raleway", sans-serif;
+        font-weight: 900;
+        font-size: 36px;
+        text-shadow: #274d4a 3px 3px 5px;
+        color: whitesmoke;
+        transition: color 1s;
+        &:hover {
+            text-decoration: none;
+            color: #f1d145;
+            text-shadow: #591822 3px 3px 5px;
+        }
+    }
+}
+.cnTitle {
+    opacity: 0;
+}
+.header-carousel-item {
+    height: 450px;
+}
+.carousel-caption {
+    left: 1%;
+    right: 1%;
+    padding-bottom: 0;
+    letter-spacing: 0.5px;
+    color: #fff;
+    text-shadow: #00bcd4 3px 3px 3px;
+    font-weight: bold;
+}

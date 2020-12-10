@@ -4,90 +4,106 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ST.19滑雪學校</title>
+    <link rel="shortcut icon" href="img/1607081874.ico">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <link rel="stylesheet" href="css/all.css">
-    <title>ST.19滑雪學校</title>
+
 </head>
 
-<body>
-    <!-- infoBar -->
-    <div class="bg-info py-1  ">
-        <div class="container text-right">
-            <a href="#" class="text-white"><i class="fab fa-instagram icon-hover"></i></a>
-            <a href="#" class="text-white mx-1"><i class="fab fa-facebook-square icon-hover"></i></a>
-            <a href="#" class="text-white"><i class="fab fa-twitter-square icon-hover"></i></a>
-        </div>
+<style>
 
-    </div>
-    <!-- navber -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"><i class="fas fa-mountain mr-1"></i>ST.19滑雪學校</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+</style>
+
+<body>
+    <!-- Nav Bar -->
+    <div class="fixed-top">
+        <nav class="navbar navbar-expand-md navbar-dark  bg-gray-transparent d-md-none">
+            <a class="navbar-brand scrollNav" href="#header">
+                <img src="https://upload.cc/i1/2020/12/04/9yiMaX.png" width="35" height="35"
+                    class="d-inline-block align-middle mr-2" alt="" loading="lazy">ST.19
+                滑雪學校</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">首頁 <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">最新活動</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            熱門方案
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">一對多 初學者必修課</a>
-                            <a class="dropdown-item" href="#">一對多 高階技巧俱樂部</a>
-                            <a class="dropdown-item" href="#">一對一 私人保鑣</a>
-                            <a class="dropdown-item" href="#">一對一 私人保母</a>
-                        </div>
-                    </li>
-                </ul>
-                <form class="form-inline">
-
-                    <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#loginModal">登入</a>
-                    <a href="#" class="btn btn-primary ml-2" data-toggle="modal" data-target="#registerModal">註冊</a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link scrollNav" href="#about">關於</a>
+                    <a class="nav-item nav-link scrollNav" href="#coures">熱門方案</a>
+                    <a class="nav-item nav-link scrollNav" href="#features">本校特色</a>
+                    <a class="nav-item nav-link scrollNav" href="#appointment">預約諮詢</a>
+                </div>
+                <form class="form-inline ml-3">
+                    <a href="#" class="btn btn-outline-warning btn-sm" data-toggle="modal"
+                        data-target="#loginModal">登入</a>
+                    <a href="#" class="btn btn-warning btn-sm ml-2" data-toggle="modal"
+                        data-target="#registerModal">註冊</a>
                 </form>
             </div>
+
+        </nav>
+    </div>
+    <header id="header">
+        <!-- wide  billboard-->
+        <div class="billboard-area d-none d-md-block">
+            <div class="menu">
+                <a class="p-2" href="#"><img src="https://upload.cc/i1/2020/12/04/9yiMaX.png" style="height: 100px;"
+                        alt=""></i></a>
+                <ul class="ml-5 mt-3">
+                    <li class="mb-2">
+                        <a class="scrollNav" href="#about">ABOUT<div
+                                class="cnTitle animate__animated pl-2 d-inline-block">關於</div></a>
+                    </li>
+                    <li class="mb-2 ml-2">
+                        <a class="scrollNav" href="#coures">COURSE<div
+                                class="cnTitle animate__animated pl-2 d-inline-block">熱門方案</div></a>
+                    </li>
+                    <li class="mb-2 ml-4">
+                        <a class="scrollNav" href="#features">FEATURES<div
+                                class="cnTitle animate__animated pl-2 d-inline-block">本校特色</div></a>
+                    </li>
+                    <li class="mb-2 ml-5">
+                        <a class="scrollNav" href="#appointment">APPOINTMENT<div
+                                class="cnTitle animate__animated pl-2 d-inline-block">預約諮詢</div></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="billboard-opacity">
+                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" style="width:100%">
+                    <source src="mp4/4274798.mp4" type="video/mp4">
+                </video>
+
+            </div>
         </div>
-
-    </nav>
-
-    <header>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
+        <!-- narrow billboard -->
+        <div id="carouselExampleIndicators" class="carousel slide d-md-none" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item header-carousel-item active bg-cover"
                     style="background-image: url(https://images.unsplash.com/photo-1587251749984-4859e9016882?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80)">
-                    <div class="carousel-caption d-none d-md-block ">
-                        <h5>冬季極限單板 Snowboarding</h5>
-                        <p>帶上滿腔熱血的心，讓冰天雪地、極酷嚴寒在眼裡化作美麗的風景</p>
+                    <div class="carousel-caption d-md-none">
+                        <p>帶上滿腔熱血的心，讓冰天雪地</p>
+                        <p>、極酷嚴寒在眼裡化作美麗的風景!</p>
                     </div>
                 </div>
                 <div class="carousel-item header-carousel-item bg-cover"
                     style="background-image: url(https://images.unsplash.com/photo-1507534192483-69914c0692d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80)">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>雪地冒險雙版 Skiing</h5>
-                        <p>帶上滿腔熱血的心，讓冰天雪地、極酷嚴寒在眼裡化作美麗的風景</p>
+                    <div class="carousel-caption d-md-none">
+                        <h5 class="font-weight-bold">《早鳥優惠》</h5>
+                        <p>提前半年預定課程，享優惠、不再人擠人。</p>
+                        <p>錯過再等半年!</p>
                     </div>
                 </div>
                 <div class="carousel-item header-carousel-item bg-cover"
-                    style="background-image: url(https://images.unsplash.com/photo-1505873346750-69ce3daeb225?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>早鳥優惠</h5>
-                        <p>提前半年預定課程，享優惠、不再人擠人。錯過再等半年!</p>
+                    style="background-image: url(https://cdn.pixabay.com/photo/2016/11/18/15/40/boy-1835416_1280.jpg)">
+                    <div class="carousel-caption d-md-none">
+                        <p>帶上滿腔熱血的心，讓冰天雪地</p>
+                        <p>、極酷嚴寒在眼裡化作美麗的風景!</p>
                     </div>
                 </div>
             </div>
@@ -100,52 +116,55 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+
     </header>
     <section class="bg-warning text-secondary py-4">
         <div class="container">
-            <div class="row text-justify">
-                <div class="col-md-4">
+            <div class="row text-justify ">
+                <div class="col-md-4 animated-up">
                     <div class="mb-2"><i class="fas fa-2x fa-skiing"></i></div>
                     <h3>課程類別</h3>
                     <p>本校提供單板 Snowboard / 雙板 Ski 滑雪課程 。請慎選課程，預約登記的課程不能中途更換。因為教練不一定兩種都會。</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 animated-up">
                     <div class="mb-2"><i class="fas fa-2x fa-globe-americas"></i></div>
                     <h3>訓練場地</h3>
                     <p>為了讓學員有新鮮感，每年場地都不太一樣。目前北半球以日本為主;南半球則以澳洲為主。讓你一整年都有機會出國學滑雪。</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 animated-up">
                     <div class="mb-2"><i class="fas fa-2x fa-users"></i></div>
                     <h3>會員制度</h3>
-                    <p>本校課程全面採預約制度，預約需有會員資格。辦理會員，享滑雪器材購買9折長期優惠。以及不定期優惠，活動內容公布在官網、粉絲頁。</p>
+                    <p>本校課程全面採預約制度，預約需有會員資格。辦理會員，享購買校內滑雪器材9折長期優惠。以及不定期優惠，活動內容公布在官網、粉絲頁。</p>
                 </div>
             </div>
         </div>
     </section>
     <!-- synopsis -->
-    <section class="container-fluid py-5 bg-dark" style="position: relative">
+    <section id="about" class="container-fluid py-5 bg-dark" style="position: relative">
         <div class="row">
             <div class="col-md-5 bg-cover synopsis-img"></div>
         </div>
         <div class="container text-light ">
             <div class="row d-flex justify-content-end ">
-                <div class="col-md-7 bg-gray-transparent  bg-md-transparent pt-4">
+                <div class="col-md-7 bg-gray-transparent  bg-md-transparent pt-4 animated-up">
                     <h3>歡迎來到 ST.19滑雪學校</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea molestias repellendus quasi
-                        voluptate minus? Quaerat distinctio nemo architecto dolore magni eos illum quos, maiores, eius
-                        fuga voluptatem tempora deleniti excepturi?</p>
-                    <a href="#" class="btn btn-outline-warning my-4">了解更多</a>
+                    <p class="text-preset">
+                        我們來自台中，是群滑雪運動中毒者。在《ST.19滑雪學校》成立以前，每年都會組團去滑雪。隨著技術的成熟，越來越多朋友希望我們能夠提供教學。再加上我們非常想要推廣滑雪運動，於是我們就花了一年的時間考取滑雪教練證照。並在隔年成立了《ST.19滑雪學校》。希望能藉由最安全的環境及正確的滑雪知識，讓大家都能享受滑雪的樂趣。
+                    </p>
                     <div class="row my-4">
-                        <div class="col-md-6">
-                            <h3>像含羞草似的嬌柔</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis rem accusamus harum
-                                fuga quae voluptatibus dignissimos reiciendis vel expedita architecto.</p>
+                        <div class="col-md-6 animated-left">
+                            <h3>關於滑雪</h3>
+                            <p class="text-preset">滑雪是款自由度、速度感極高的運動，非常適合喜歡追求刺激的您。</p>
+                            <p class="text-preset">
+                                不過滑雪也被歸類為極限運動，有相當程度的危險性。因此我們非常建議初學者，參加我們的《初學者必修課》。在本課程中，我們將從裝備器材、滑雪知識原理及安全正確姿勢等逐一教學，奠定良好基礎。
+                            </p>
                         </div>
-                        <div class="col-md-6">
-                            <h3>像含羞草似的嬌柔</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, non praesentium odit
-                                necessitatibus similique, omnis voluptatem sunt cupiditate laudantium provident corrupti
-                                eius nam recusandae fuga quibusdam labore ipsa, eveniet in!</p>
+                        <div class="col-md-6 animated-right">
+                            <h3>單板、雙板怎麼選?</h3>
+                            <p class="text-preset">
+                                兩者最大的差異在於，雙板是將雙腳一左一右固定在不同滑雪板上，身體朝正面滑行；而單板則是將雙腳固定在同一片滑雪板上，以側身的方式滑行。考量平衡的難度，一般會認為雙板比較好上手。
+                            </p>
+                            <p class="text-preset">而單板的魅力則在於，即使在比較平坦的雪面上，也能做出跳躍，甩尾等酷炫的特技。也是很熱門的選擇。</p>
                         </div>
 
                     </div>
@@ -154,31 +173,31 @@
         </div>
 
     </section>
-    <section class="py-5 bg-light">
+    <section id="coures" class="py-5 bg-light">
         <div class="container">
             <h2 class="text-center font-weight-bold text-info">熱門方案</h2>
             <div class="row text-secondary text-justify">
-                <div class="col-md-6 my-3">
+                <div class="col-md-6 my-3 animated-left">
                     <div class="media">
                         <div><i class="fas fa-check fa-2x mr-3 text-info"></i></div>
                         <div class="media-body">
                             <h3 class="mt-0">一對多 初學者必修課</h3>
-                            從零開始學的基礎課程，非常推薦從未嘗試過滑雪運動的你。本方案為一對多課程，教練不會依程度教授滑雪技巧，完全按照課綱教學。
-                            <strong>*不想一試成主顧，請勿輕易嘗試。</strong>
+                            從零開始學的基礎課程，非常推薦從未嘗試過滑雪運動的你。本方案為一對多課程，教練會按照課綱教學，再依吸收程度作微調。
+                            <strong>*不想一試成主顧，請勿輕易嘗試。</strong> 人數上限: 五人
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 my-3">
+                <div class="col-md-6 my-3 animated-right">
                     <div class="media">
                         <div><i class="fas fa-check fa-2x mr-3 text-info"></i></div>
                         <div class="media-body">
                             <h3 class="mt-0">一對多 高階技巧俱樂部</h3>
                             與教練及其他學員互相切磋，研究練習最新的高難度滑雪技巧。適合不斷追求極限的你。
-                            <strong>*建議加保全方位保險，所有意外皆由保險公司承擔。</strong>
+                            <strong>*建議加保全方位保險，所有意外皆由保險公司承擔。</strong> 人數上限: 五人
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 my-3">
+                <div class="col-md-6 my-3 animated-left">
                     <div class="media">
                         <div><i class="fas fa-fire-alt fa-2x mr-3 text-info"></i></div>
                         <div class="media-body">
@@ -187,12 +206,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 my-3">
+                <div class="col-md-6 my-3 animated-right">
                     <div class="media">
                         <div><i class="fas fa-fire-alt fa-2x mr-3 text-info"></i></div>
                         <div class="media-body">
                             <h3 class="mt-0">一對一 私人保母</h3>
-                            在你享受滑雪的時候，小孩沒人顧?那一定要幫你的孩子選擇本方案!由最專業的滑雪教練擔任孩子的私人保母。在快要跌倒時候，教練會直接把他抱起來。降低嚴重摔傷的可能。
+                            在你享受滑雪的時候，小孩沒人顧?那一定要幫你的孩子選擇本方案!由最專業的滑雪教練擔任孩子的私人保母。在快要跌倒時候，教練會將他抱起。降低嚴重摔傷的可能。
                         </div>
                     </div>
                 </div>
@@ -200,26 +219,26 @@
         </div>
     </section>
     <!-- features -->
-    <section class="container-fluid py-5 bg-gray-transparent" style="position: relative">
+    <section id="features" class="container-fluid py-5 bg-gray-transparent" style="position: relative">
         <div class="container">
             <div class="row text-white">
-                <div class="col-md-7">
+                <div class="col-md-7 animated-up">
                     <h2 class="font-weight-bold">本校特色</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio beatae expedita porro id
-                        程度劃分明確，找到與你程度相符的課程。</p>
-                    architecto veritatis iusto eius.</p>
+                    <p class="text-preset">
+                        我們每年上半季與下半季，會分別在澳洲及日本排定場地，並安排駐點教練。在雪季期間，按照預約排程授課。因此相當適合想要到當地自由行的學員。在旅遊期間安排一堂滑雪課程，不只能學習一項新的運動技能，也能一賭在雪山上壯闊的美景!
+                    </p>
                     <dl class="row">
-                        <dt class="col-sm-3">合理價格</dt>
-                        <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
+                        <dt class="col-sm-3">課綱豐富</dt>
+                        <dd class="col-sm-9">從最開始裝備租借、穿戴介紹、滑雪基本知識、滑雪技能教學。手把手教到您上手。</dd>
 
                         <dt class="col-sm-3">多元課程</dt>
-                        <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+                        <dd class="col-sm-9">提供雙版/單板初階及高階課程，搭配一對一及小團體上課形式。</dd>
 
-                        <dt class="col-sm-3">課綱豐富</dt>
-                        <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+                        <dt class="col-sm-3">中文教學</dt>
+                        <dd class="col-sm-9">減少因為語言隔閡造成的問題，讓您只需專注滑雪課程。</dd>
 
                         <dt class="col-sm-3">優秀團隊</dt>
-                        <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+                        <dd class="col-sm-9">本校教練持有國際滑雪教練證照，給您專業的教學。</dd>
                     </dl>
                 </div>
             </div>
@@ -230,7 +249,7 @@
 
     </section>
     <!-- map & form -->
-    <section class="py-5 bg-light">
+    <section id="appointment" class="py-5 bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 pr-md-4">
@@ -252,9 +271,9 @@
                         <div class="form-group">
                             <label for="tel"">電話*</label>
                             <input type=" tel" class="form-control" id="tel" placeholder="請輸入電話" required>
-                            <div class="invalid-feedback">
-                                請填入正確資料!
-                            </div>
+                                <div class="invalid-feedback">
+                                    請填入正確資料!
+                                </div>
                         </div>
                         <div class="form-group">
                             <label for="email"">電子信箱*</label>
@@ -285,28 +304,43 @@
     </section>
     <!-- ad -->
     <section class="container-fluid">
-        <div class="row text-light text-justify">
-            <div class="col-md-6 p-4 bg-cover"
+        <div class="row text-light text-justify overflow-hidden">
+            <div class="col-md-6 p-4 bg-cover bg-enlarge" 
                 style="background-image: url(https://images.unsplash.com/photo-1518773085311-4fcabdd825f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);">
                 <div class="row">
-                    <div class="col-9">
-                        <small>加入我們</small>
-                        <h4 class="font-weight-bold my-2">你便乖乖的把琴抱進你的床去</h4>
-                        <p>短暫的激情是不值錢的，年代的人還需要摔打，別人一定會聽你，但它只是一環，80年代的人不要跟70年代，別人可以拷貝我的模式，一個成功的創業者，東西得一點點幹，也要注重過程，千萬別告訴別人，賺錢模式越多越說明你沒有模式。
+                    <div class="col-sm-10">
+                        <small class="text-warning">最新消息</small>
+                        <h4 class="font-weight-bold my-2">【澳洲】2021年下半季-Mt Buller</h4>
+                        <p class="text-preset">下半季澳洲滑雪場地已經出爐了! 於為維多利亞省東部的Mt
+                            Buller滑雪度假村，從墨爾本出發只要三個小時的車程。除了自駕，也可利用市區巴士前往。園內設有度假旅館、餐廳、酒吧、超市及電影院，設施相當多元!
                         </p>
-                        <a href="#" class="btn btn-info my-2">加入我們</a>
+                        <p><strong>園區開放時間:</strong>6月初至10月初</p>
+                        <div><a href="https://www.mtbuller.com.au/Winter/" class="bg-light rounded px-1">詳細資訊請看 Mt
+                                Buller官網</a></div>
+                        <div class="text-right">
+                            <strong class="text-warning">早鳥優惠開放報名中!!</strong>
+                            <a href="#" class="btn btn-info my-2 ml-auto">加入我們</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 p-4 bg-cover"
+            <div class="col-md-6 p-4 bg-cover bg-enlarge"
                 style="background-image: url(https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60)">
                 <div class="row">
-                    <div class="col-9">
-                        <small>加入我們</small>
-                        <h4 class="font-weight-bold my-2">你便乖乖的把琴抱進你的床去</h4>
-                        <p>短暫的激情是不值錢的，年代的人還需要摔打，別人一定會聽你，但它只是一環，80年代的人不要跟70年代，別人可以拷貝我的模式，一個成功的創業者，東西得一點點幹，也要注重過程，千萬別告訴別人，賺錢模式越多越說明你沒有模式。
+                    <div class="col-sm-10">
+                        <small class="text-danger">馬上預約</small>
+                        <h4 class="font-weight-bold my-2">【日本】2021年上半季-</h4>
+                        <p class="text-preset">
+                            上半季的教學課程已經開始囉!場地就在王子大飯店旗下的苗場滑雪場。從東京出發自駕只要一個小時，亦可搭乘新幹線等交通工具前往。園區設有多達22條滑雪道，雪道難度平均分配，適合各等級學員。
+                            《ST.19滑雪學校》接受課程開始前一周的預約，現在就預約諮詢!
                         </p>
-                        <a href="#" class="btn btn-danger my-2">馬上預訂</a>
+                        <p><strong>園區開放時間:</strong>12月至4月中旬</p>
+                        <div><a href="https://www.princehotels.com/zh-hant/ski/naeba/"
+                                class="bg-light rounded px-1">詳細資訊請看 苗場滑雪場官網</a></div>
+                        <div class="text-right">
+                            <strong class="text-warning">熱烈報名中!!</strong>
+                            <a href="#" class="btn btn-danger my-2 ml-auto">加入我們</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -320,14 +354,15 @@
                 <a href="#" class="ml-2">Facebook</a>
                 <a href="#" class="ml-2">About</a>
             </div>
+            <div class="text-secondary ml-auto">僅供學習使用，無商業用途</div>
         </div>
     </footer>
     <!-- Login Modal -->
-    <div class="modal fade" id="loginModal" tabindex="-1"  aria-hidden="true">
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header bg-primary text-white">
-                    <h5 class="modal-title" >登入服務</h5>
+                    <h5 class="modal-title">登入服務</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -336,7 +371,8 @@
                     <form>
                         <div class="form-group">
                             <label for="exampleInputEmail1">帳號</label>
-                            <input type="email" class="form-control"                               aria-describedby="emailHelp" placeholder="請輸入電子信箱" required>
+                            <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="請輸入電子信箱"
+                                required>
                             <small id="emailHelp" class="form-text text-muted">我們絕不會隨意將你的資料給予第三者</small>
                         </div>
                         <div class="form-group">
@@ -373,11 +409,9 @@
                     <div class="row">
                         <div class="col-lg-6 text-secondary">
                             <h3 class="font-weight-bold ">成為ST.19滑雪學校會員</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quod? Dolore cum
-                                nobis fugit atque voluptates rerum odio excepturi? Tenetur qui eaque nostrum est maxime
-                                quam vitae illum autem doloribus!</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure mollitia cumque. Inventore
-                                sint doloremque dignissimos!</p>
+                            <p><strong>會員制度:</strong> 本校課程全面採預約制度，預約需有會員資格。以便掌握學員程度紀錄，讓我們安排適合您的課程。</p>
+                            <p><strong>會員好康:</strong> 享購買校內滑雪器材9折長期優惠。以及不定期優惠，活動內容公布在官網、粉絲頁。馬上加入我們吧!</p>
+                            <p class="text-info">註冊會員將不會收取額外費用!</p>
                         </div>
                         <div class="col-lg-6">
                             <form>
@@ -413,9 +447,8 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
