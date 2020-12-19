@@ -1,3 +1,7 @@
+$(window).on('load',function () {
+    $('.loading').fadeOut()
+}
+);
 $(document).ready(function () {
     // modal
     $('a[data-dismiss="modal"][data-toggle="modal"]').on('click', function () {

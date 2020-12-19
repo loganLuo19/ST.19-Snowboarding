@@ -123,6 +123,20 @@ ul {
   transform: scale(1.05, 1.05);
 }
 
+.loading {
+  background-repeat: no-repeat;
+  background-image: url(https://flevix.com/wp-content/uploads/2019/07/Facebook-Loading-Icons-1.gif);
+  position: fixed;
+  z-index: 1100;
+  background-position: center center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: contain;
+  background-color: #fff;
+}
+
 .bg-gray-transparent {
   background-color: rgba(0, 0, 0, 0.5);
 }
